@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thông tin về trợ lý ảo bothn">
+    <meta name="keywords" content="Chatbot, AI, bothn, Trợ lý ảo">
+    <meta name="author" content="Cap Nguyen Hieu Nghia">
+    <meta property="og:title" content="About bothn Assistant">
+    <meta property="og:description" content="Tìm hiểu về các tính năng của trợ lý ảo bothn">
+    <meta property="og:image" content="./image/logoitc.png">
+    <title>About bothn Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./image/logoitc.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+        :root {
+            --primary-color: #0d296b;
+            --secondary-color: #2979ff;
+            --background-color: #f0f2f5;
+            --card-background: #ffffff;
+            --text-color: #333;
+            --light-text-color: #666;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .page-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header h1 span {
+            color: #87b1ff;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        .container {
+            display: grid;
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-background);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px var(--shadow-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .card h2 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card-icon {
+            font-size: 1.8rem;
+            margin-right: 15px;
+            color: var(--secondary-color);
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card ul li {
+            margin-bottom: 10px;
+            color: var(--light-text-color);
+            display: flex;
+            align-items: center;
+        }
+
+        .card ul li i {
+            color: #28a745;
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: var(--light-text-color);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+
+        /* Animation Delays */
+        .card:nth-child(1) { animation-delay: 0.1s; }
+        .card:nth-child(2) { animation-delay: 0.2s; }
+        .card:nth-child(3) { animation-delay: 0.3s; }
+        .card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <h1>About Your Assistant: <span>bothn</span></h1>
+            <p>Một trợ lý ảo thông minh được thiết kế để cung cấp thông tin và hỗ trợ tức thì.</p>
+        </header>
+
+        <main class="container">
+            <section class="card" id="intro">
+                <h2><i class="card-icon fas fa-robot"></i>bothn là ai?</h2>
+                <p>Tôi là <strong>bothn</strong>, một trợ lý ảo được tạo ra để giúp bạn một cách nhanh chóng và hiệu quả. Mục tiêu chính của tôi là cung cấp câu trả lời chính xác cho các câu hỏi của bạn và làm cho quá trình tìm kiếm thông tin của bạn trở nên dễ dàng hơn.</p>
+            </section>
+
+            <section class="card" id="features">
+                <h2><i class="card-icon fas fa-cogs"></i>Các tính năng của tôi</h2>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> <strong>Hoạt động 24/7:</strong> Tôi luôn ở đây để giúp đỡ, bất cứ khi nào bạn cần.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Trả lời tức thì:</strong> Tôi có thể nhanh chóng truy xuất thông tin từ cơ sở dữ liệu của mình (được cung cấp bởi Google Sheets).</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Giải toán:</strong> Tôi có thể giải các biểu thức toán học đơn giản cho bạn. Chỉ cần gõ chúng vào!</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Hiểu từ viết tắt:</strong> Tôi hiểu các từ viết tắt phổ biến của tiếng Việt để cuộc trò chuyện của chúng ta tự nhiên hơn.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>An toàn & Riêng tư:</strong> Các cuộc trò chuyện của bạn được xử lý một cách an toàn.</li>
+                </ul>
+            </section>
+
+            <section class="card" id="tech">
+                <h2><i class="card-icon fas fa-brain"></i>Công nghệ đằng sau</h2>
+                <p>Tôi hoạt động bằng cách sử dụng kết hợp các kỹ thuật truy xuất dữ liệu và thuật toán xử lý ngôn ngữ tự nhiên. Tôi so sánh sự tương đồng về mặt ngữ nghĩa giữa câu hỏi của bạn và dữ liệu trong cơ sở kiến thức của tôi để tìm ra câu trả lời phù hợp nhất.</p>
+            </section>
+            
+            <section class="card" id="developer">
+                <h2><i class="card-icon fas fa-code"></i>Nhà phát triển</h2>
+                <p>Tôi được tạo ra và phát triển bởi <strong>Cap Nguyen Hieu Nghia</strong>. Mọi nỗ lực đều nhằm mục đích tạo ra một công cụ hữu ích và thân thiện với người dùng.</p>
+                <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Quay lại Chat</a>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025. Developed by <a href="#" target="_blank">Cap Nguyen Hieu Nghia</a>.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Disable context menu and some shortcuts for protection
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.onkeydown = function (e) {
+            if (e.keyCode === 123 || (e.ctrlKey && e.shiftKey && (e.keyCode === 'I'.charCodeAt(0) || e.keyCode === 'J'.charCodeAt(0) || e.keyCode === 'C'.charCodeAt(0))) || (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))) {
+                return false;
+            }
+        };
+    </script>
+</body>
+
+</html>

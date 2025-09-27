@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đang Phát Triển</title>
+    <meta property="og:image" content="./image/cb4.jpg">
+    <link rel="icon" href="./image/cb2.jpg">
+    <style>
+        body {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            background: #3e3e3f;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            animation: fadeIn 1s ease;
+            margin: 20px 0;
+            max-width: 90%;
+        }
+
+        h3 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            animation: bounce 1s infinite;
+        }
+
+        p {
+            font-style: italic;
+            font-size: 1em;
+            animation: fadeIn 1s 0.5s forwards;
+            opacity: 0;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: box-shadow 0.3s;
+        }
+
+        input:focus {
+            box-shadow: 0 0 10px rgba(34, 94, 233, 0.8);
+            outline: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: navy;
+            color: white;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #d35400;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-20px);
+            }
+
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .gioithieu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .gt {
+            border: dashed white 2px;
+            padding: 10px;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition: transform 0.3s;
+        }
+
+        .gt:hover {
+            transform: scale(1.05);
+            border: dashed 2px navy;
+        }
+
+        img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            h3 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .gioithieu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .gt {
+                width: 80%;
+                margin-bottom: 15px;
+            }
+        }
+
+        .tt {
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: greenyellow;
+            position: absolute;
+            right: 2%;
+            top: 2%;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tt" title="Đã kết nối..."></div>
+    <div
+        style="width: 100%; height: auto; margin: 50px 0 0 0; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <div id="falling-text" style="margin-bottom: 20px;"></div>
+        <div class="gioithieu">
+            <div class="gt">
+                <div><img src="./image/robo.webp" alt="img-hn"></div>
+                <div>
+                    <p>Trò chuyện bằng mic</p>
+                </div>
+            </div>
+            <div class="gt">
+                <div><img src="./image/robo.webp" alt="img-hn"></div>
+                <div>
+                    <p>Trả lời tự động</p>
+                </div>
+            </div>
+            <div class="gt">
+                <div><img src="./image/robo.webp" alt="img-hn"></div>
+                <div>
+                    <p>Nhắc nhở công việc</p>
+                </div>
+            </div>
+            <div class="gt">
+                <div><img src="./image/robo.webp" alt="img-hn"></div>
+                <div>
+                    <p>Tra cứu thông minh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>Nếu là quản trị viên, vui lòng nhập mã kích hoạt để truy cập</p>
+        <div>
+            <input type="text" id="activationCode" placeholder="Nhập mã kích hoạt">
+            <button style="margin-top: 20px;" onclick="checkCode()">Kích hoạt</button>
+        </div>
+    </div>
+    <p style="color: #c8bdbd; font-size: 11px; margin: 10px 0; text-align: center; width: 100%;"> &copy;
+        2025 P.TS-TT CĐ CNTT TP.HCM. Developer Cap Nguyen Hieu Nghia.</p>
+    <script>
+        const text = "PHIÊN BẢN ĐANG PHÁT TRIỂN";
+        const fallingTextContainer = document.getElementById("falling-text");
+
+        text.split('').forEach((char, index) => {
+            const span = document.createElement("span");
+            span.textContent = char;
+            span.className = 'falling-text';
+            span.style.animation = `fall 0.5s forwards ${index * 0.1}s`;
+            fallingTextContainer.appendChild(span);
+        });
+
+        const correctCode = "chatbotitc";
+
+        function checkCode() {
+            const userInput = document.getElementById("activationCode").value;
+            if (userInput === correctCode) {
+                sessionStorage.setItem("activated", "true");
+                window.location.href = "index.html";
+            } else {
+                alert("Mã kích hoạt không đúng. Vui lòng thử lại.");
+            }
+        }
+    </script>
+</body>
+
+</html>

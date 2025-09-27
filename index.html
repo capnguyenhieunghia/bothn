@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chat box bothn">
+    <meta name="keywords" content="Chatbot, AI, Trả lời tự động">
+    <meta name="author" content="bothn">
+    <meta property="og:title" content="bothn">
+    <meta property="og:description" content="Chat box bothn">
+    <meta property="og:image" content="./image/logoitc.png">
+    <meta property="og:url" content="itc.edu.vn">
+    <title>bothn Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./image/logoitc.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cse.google.com/cse.js?cx=3092bb157654b418d"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=pSLGyR46"></script>
+    <script src="https://crypto-js.googlecode.com/svn/tags/3.1.9-1/build/rollups/aes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <!-- Library for reading .docx files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <!-- Library for reading .xlsx files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="tt-chat">
+                    <a href="https://itc.edu.vn/" class="logo-link">
+                        <div class="logo-wrapper">
+                            <img src="./image/robo.webp" alt="ITC Logo" width="40px">
+                            <div class="logo-pulse"></div>
+                        </div>
+                    </a>
+                    <div class="header-info">
+                        <p class="tendv">
+                            <a href="moreinfo.html" title="Thông tin Chatbot" style="color: aliceblue;">bothn</a>
+                        </p>
+                        <div class="weather-container">
+                            <i class="fas fa-cloud-sun"></i>
+                            <div id="weather">Đang tải dữ liệu...</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bt-tn">
+                    <button title="Gọi tư vấn viên" class="action-button phone-button">
+                        <a href="tel:0938861080">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </button>
+                    <button id="micButton" title="Mic trò chuyện" class="action-button mic-button" onclick="startDictation()">
+                        <i class="fa-solid fa-microphone"></i>
+                        <div class="mic-wave"></div>
+                    </button>
+                </div>
+            </div>
+            <div class="messages" id="messages"></div>
+            <div class="typing" id="typing">
+                <div class="typing-indicator">
+                    <div class="typing-circle"></div>
+                    <div class="typing-circle"></div>
+                    <div class="typing-circle"></div>
+                </div>
+                <span>bothn đang trả lời...</span>
+            </div>
+            <div id="command-suggestions" class="command-suggestions-container"></div>
+            <audio id="messageSentAudio" src="./sounds/sent.mp3"></audio>
+            <audio id="messageReceivedAudio" src="./sounds/received.mp3"></audio>
+            <div class="input-area">
+                <div class="nhap-tn" title="Nhập tin nhắn"><input placeholder="Nhập tin nhắn hoặc gõ @ để xem lệnh" type="text"
+                        id="userInput">
+                    <button title="Gửi tin nhắn" onclick="sendMessage(document.getElementById('userInput').value)"><i
+                            class="fa-regular fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/mainbot.js"></script>
+    <script src="js/security.js"></script>
+    <script>
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.innerText = message;
+            toast.className = 'toast-notification';
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.classList.add('show');
+            }, 10);
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+                setTimeout(() => {
+                    document.body.removeChild(toast);
+                }, 500);
+            }, 2000);
+        }
+
+        const contextMenu = document.createElement('div');
+        contextMenu.style.position = 'absolute';
+        contextMenu.style.display = 'none';
+        contextMenu.style.cursor = 'pointer';
+        contextMenu.style.padding = '10px';
+        contextMenu.style.backgroundColor = 'white';
+        contextMenu.style.border = '1px solid #ccc';
+        contextMenu.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+        contextMenu.style.borderRadius = '8px';
+        contextMenu.style.zIndex = '100';
+        document.body.appendChild(contextMenu);
+
+        const copyOption = document.createElement('div');
+        copyOption.innerText = 'Sao chép';
+        copyOption.onclick = function () {
+            const selectedMessage = window.selectedMessage;
+            if (selectedMessage) {
+                navigator.clipboard.writeText(selectedMessage).then(() => {
+                    showToast('Đã sao chép vào bộ nhớ tạm');
+                }).catch(err => {
+                    console.error('Không thể sao chép: ', err);
+                    showToast('Lỗi khi sao chép');
+                });
+            }
+            contextMenu.style.display = 'none';
+        };
+        contextMenu.appendChild(copyOption);
+
+        document.getElementById('messages').addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+            const messageElement = event.target.closest('.message-bubble');
+            if (messageElement) {
+                // Get text from the message-text div only
+                const messageText = messageElement.querySelector('.message-text');
+                if (messageText) {
+                    window.selectedMessage = messageText.innerText;
+                    contextMenu.style.top = `${event.pageY}px`;
+                    contextMenu.style.left = `${event.pageX}px`;
+                    contextMenu.style.display = 'block';
+                }
+            }
+        });
+
+        window.addEventListener('click', function () {
+            if (contextMenu.style.display === 'block') {
+                contextMenu.style.display = 'none';
+            }
+        });
+
+        function fetchWeather(latitude, longitude) {
+            fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Có lỗi xảy ra!');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const temperature = data.current_weather.temperature;
+                    const description = data.current_weather.weathercode;
+                    const weatherDescription = getWeatherDescription(description);
+                    document.getElementById('weather').innerText = `${temperature}°C, ${weatherDescription}`;
+                })
+                .catch(error => {
+                    document.getElementById('weather').innerText = `Lỗi: ${error.message}`;
+                });
+        }
+        function getWeatherDescription(code) {
+            const descriptions = {
+                0: "Trời quang",
+                1: "Chủ yếu quang đãng",
+                2: "Có mây từng phần",
+                3: "Trời nhiều mây",
+                45: "Sương mù",
+                48: "Sương mù đóng băng",
+            };
+            return descriptions[code] || "Không xác định";
+        }
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(position => {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    fetchWeather(latitude, longitude);
+                }, () => {
+                    document.getElementById('weather').innerText = "Không thể lấy vị trí của bạn.";
+                });
+            } else {
+                document.getElementById('weather').innerText = "Trình duyệt của bạn không hỗ trợ Geolocation.";
+            }
+        }
+        getLocation();
+    </script>
+</body>
+
+</html>

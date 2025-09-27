@@ -1,0 +1,179 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "chào", "xin chào", "hello", "hi", "chào bạn", "chào bot", "alo", "ê", "có ai ở đó không", "helo", "lô"
+        ],
+        "responses": [
+          "Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?",
+          "Xin chào! Rất vui được hỗ trợ bạn.",
+          "Hello! Bạn cần tôi giúp gì không?",
+          "Tôi đây, chào bạn. Bạn có câu hỏi gì không?",
+          "Chào bạn, tôi là bothn. Tôi có thể giúp gì cho bạn?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "tạm biệt", "bye", "hẹn gặp lại", "bai", "pp", "thoát", "nghỉ thôi", "bye bye", "tôi đi đây", "gặp lại sau"
+        ],
+        "responses": [
+          "Tạm biệt! Hẹn gặp lại bạn sau.",
+          "Rất vui được trò chuyện với bạn. Tạm biệt!",
+          "Bye bye! Cần gì cứ gọi tôi nhé.",
+          "Tạm biệt và chúc bạn một ngày tốt lành!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "cảm ơn", "cảm ơn bạn", "thanks", "thank you", "cảm ơn nhiều", "tuyệt vời", "hay quá", "cảm ơn bot", "biết ơn bạn", "cảm ơn nhé"
+        ],
+        "responses": [
+          "Không có gì! Rất vui được giúp bạn.",
+          "Rất vui khi được hỗ trợ bạn!",
+          "Không có chi! Tôi luôn sẵn sàng.",
+          "Đó là nhiệm vụ của tôi. Rất vui vì đã giúp được bạn."
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "bạn là ai", "mày là ai", "bạn là gì", "giới thiệu về bạn đi", "bot là gì"
+        ],
+        "responses": [
+          "Tôi là một trợ lý ảo được tạo ra để trả lời các câu hỏi của bạn dựa trên dữ liệu được cung cấp.",
+          "Tôi là bothn, một chatbot sẵn sàng giúp đỡ bạn tìm kiếm thông tin."
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "tên bạn là gì", "bạn tên gì"
+        ],
+        "responses": [
+          "Tôi là bothn, trợ lý ảo của bạn."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "bạn có thể làm gì", "giúp tôi với", "bạn giúp được gì", "help", "cứu"
+        ],
+        "responses": [
+          "Tôi có thể trả lời các câu hỏi về nhiều lĩnh vực đời sống, giải toán, và trích xuất thông tin từ tài liệu. Bạn có câu hỏi nào không?"
+        ]
+      },
+      {
+        "tag": "status",
+        "patterns": [
+            "bạn khỏe không", "dạo này sao rồi", "khỏe không", "bạn ổn không"
+        ],
+        "responses": [
+            "Tôi khỏe, cảm ơn bạn đã hỏi! Tôi có thể giúp gì cho bạn hôm nay?",
+            "Tôi luôn tràn đầy năng lượng để giúp bạn. Bạn cần gì nào?",
+            "Tôi là máy móc nên lúc nào cũng 'khỏe' cả. Cảm ơn bạn đã quan tâm!"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+            "kể chuyện cười đi", "nói gì đó vui đi", "bạn có hài hước không", "kể chuyện vui"
+        ],
+        "responses": [
+            "Tại sao quả bóng lại bị xì hơi? Vì nó bị 'đá' nhiều quá!",
+            "Một con vịt có 2 cái chân, chạy đi trước 2 con vịt. Hỏi có mấy con vịt? Vẫn là 1 con vịt thôi, vì nó chạy trước 2 cái chân của nó mà!",
+            "Đố bạn biết tại sao các lập trình viên lại hay nhầm lẫn giữa Halloween và Giáng sinh? Vì OCT 31 = DEC 25!"
+        ]
+      },
+      {
+        "tag": "happy",
+        "patterns": [
+            "tôi vui quá", "vui ghê", "hôm nay tuyệt vời", "hạnh phúc quá", "vui thật", "tôi thấy vui"
+        ],
+        "responses": [
+            "Thật tuyệt khi nghe điều đó! Có chuyện gì vui bạn muốn kể tôi nghe không?",
+            "Tuyệt vời! Niềm vui của bạn làm tôi cũng vui lây.",
+            "Nghe bạn vui làm tôi cũng thấy phấn chấn hơn!"
+        ]
+      },
+      {
+        "tag": "sad",
+        "patterns": [
+            "tôi buồn quá", "chán quá", "tâm trạng tệ", "buồn", "thất vọng", "tôi đang buồn"
+        ],
+        "responses": [
+            "Tôi đây, có chuyện gì khiến bạn buồn vậy?",
+            "Bạn có muốn chia sẻ với tôi không? Tôi luôn sẵn sàng lắng nghe.",
+            "Đừng buồn, mọi chuyện rồi sẽ ổn thôi. Cần người tâm sự thì có tôi đây."
+        ]
+      },
+      {
+        "tag": "tired",
+        "patterns": [
+            "tôi mệt quá", "kiệt sức", "oải quá", "mệt mỏi", "hết năng lượng rồi"
+        ],
+        "responses": [
+            "Bạn đã làm việc vất vả rồi. Hãy dành chút thời gian nghỉ ngơi nhé.",
+            "Hãy hít thở sâu và thư giãn một chút. Đừng quá sức nhé.",
+            "Mệt mỏi là dấu hiệu bạn cần nghỉ ngơi. Hãy chăm sóc bản thân nhé."
+        ]
+      },
+      {
+        "tag": "bored",
+        "patterns": [
+            "chán quá", "không có gì làm", "chán như con gián"
+        ],
+        "responses": [
+            "Chán à? Bạn có muốn tôi kể một câu chuyện cười không?",
+            "Hay là bạn thử hỏi tôi một câu hỏi về chủ đề bất kỳ xem sao?",
+            "Nếu chán, bạn có thể thử đọc một cuốn sách mới hoặc nghe một bản nhạc bạn yêu thích."
+        ]
+      },
+      {
+        "tag": "compliment",
+        "patterns": [
+            "bạn thông minh quá", "bot giỏi thật", "bạn hữu ích", "bạn làm tốt lắm", "tuyệt vời"
+        ],
+        "responses": [
+            "Cảm ơn bạn! Lời khen của bạn là động lực lớn nhất của tôi.",
+            "Hihi, cảm ơn bạn nhé!",
+            "Tôi rất vui vì đã giúp được bạn. Cảm ơn lời khen của bạn!"
+        ]
+      },
+      {
+        "tag": "anger",
+        "patterns": [
+            "tức quá", "bực mình", "điên mất", "thật là bực"
+        ],
+        "responses": [
+            "Hãy bình tĩnh lại nào. Hít một hơi thật sâu nhé.",
+            "Có chuyện gì làm bạn bực mình vậy? Nếu muốn, bạn có thể chia sẻ với tôi.",
+            "Tôi hiểu cảm giác của bạn. Đôi khi mọi thứ không như ý muốn."
+        ]
+      },
+      {
+        "tag": "confusion",
+        "patterns": [
+            "tôi không hiểu", "là sao", "giải thích lại đi", "hả", "khó hiểu quá"
+        ],
+        "responses": [
+            "Xin lỗi vì đã làm bạn khó hiểu. Tôi có thể thử giải thích lại bằng cách khác được không?",
+            "Để tôi thử nói lại nhé. Bạn chưa hiểu ở điểm nào ạ?",
+            "Được thôi, tôi sẽ cố gắng giải thích lại một cách đơn giản hơn."
+        ]
+      },
+      {
+        "tag": "agreement",
+        "patterns": [
+            "đồng ý", "đúng vậy", "chính xác", "chuẩn rồi", "tôi cũng nghĩ vậy", "ok"
+        ],
+        "responses": [
+            "Rất vui vì chúng ta có cùng quan điểm!",
+            "Tuyệt vời!",
+            "Chính xác!"
+        ]
+      }
+    ]
+  }
