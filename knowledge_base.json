@@ -1,144 +1,948 @@
 {
-    "qa_pairs": [
-      {
-        "question": "làm thế nào để giảm căng thẳng",
-        "answer": "Để giảm căng thẳng, bạn có thể thử các phương pháp như: tập thể dục đều đặn, thiền hoặc yoga, ngủ đủ giấc, và dành thời gian cho sở thích cá nhân. Nếu căng thẳng kéo dài, bạn nên tham khảo ý kiến của bác sĩ hoặc chuyên gia tâm lý."
-      },
-      {
-        "question": "chế độ ăn uống cân bằng là gì",
-        "answer": "Một chế độ ăn uống cân bằng bao gồm đủ các nhóm chất: protein (thịt, cá, trứng, đậu), carbohydrate (cơm, bánh mì, ngũ cốc), chất béo lành mạnh (dầu ô liu, quả bơ), vitamin và khoáng chất (từ rau củ, trái cây)."
-      },
-      {
-        "question": "tầm quan trọng của giấc ngủ là gì",
-        "answer": "Giấc ngủ rất quan trọng để phục hồi thể chất và tinh thần. Ngủ đủ giấc (7-9 tiếng mỗi đêm) giúp cải thiện trí nhớ, tăng cường hệ miễn dịch và giảm nguy cơ mắc các bệnh mãn tính. Thiếu ngủ có thể dẫn đến mệt mỏi, khó tập trung và các vấn đề sức khỏe khác."
-      },
-      {
-        "question": "uống đủ nước có lợi ích gì",
-        "answer": "Uống đủ nước giúp duy trì năng lượng, điều hòa nhiệt độ cơ thể, hỗ trợ tiêu hóa và làm đẹp da. Lượng nước cần thiết mỗi ngày tùy thuộc vào cơ địa và mức độ hoạt động, nhưng trung bình là khoảng 2 lít."
-      },
-      {
-        "question": "chánh niệm (mindfulness) là gì",
-        "answer": "Chánh niệm là thực hành tập trung sự chú ý của bạn vào khoảnh khắc hiện tại một cách không phán xét. Bạn có thể thực hành chánh niệm qua việc thiền định, tập trung vào hơi thở, hoặc đơn giản là chú ý đến các cảm giác của cơ thể. Nó giúp giảm lo âu và cải thiện sự tập trung."
-      },
-      {
-        "question": "làm sao để cải thiện giao tiếp trong tình yêu",
-        "answer": "Để cải thiện giao tiếp, hai bạn nên thực hành lắng nghe chủ động, trung thực chia sẻ cảm xúc một cách bình tĩnh, và dành thời gian chất lượng bên nhau để thấu hiểu đối phương hơn."
-      },
-      {
-        "question": "làm thế nào để giải quyết mâu thuẫn một cách lành mạnh",
-        "answer": "Để giải quyết mâu thuẫn, hãy chọn thời điểm thích hợp để nói chuyện, tập trung vào vấn đề thay vì chỉ trích cá nhân, lắng nghe quan điểm của đối phương và cùng nhau tìm kiếm giải pháp 'cùng thắng' thay vì cố gắng 'thắng' cuộc tranh cãi."
-      },
-      {
-        "question": "làm sao để xây dựng lại niềm tin đã mất",
-        "answer": "Xây dựng lại niềm tin là một quá trình lâu dài, đòi hỏi sự kiên nhẫn và chân thành. Người mắc lỗi cần thể hiện sự hối lỗi bằng hành động cụ thể, minh bạch và nhất quán. Người bị tổn thương cần cho đối phương cơ hội và thời gian để chứng minh sự thay đổi."
-      },
-      {
-        "question": "làm thế nào để học tập hiệu quả",
-        "answer": "Các phương pháp học tập hiệu quả bao gồm kỹ thuật Pomodoro (học 25 phút, nghỉ 5 phút), chủ động gợi nhớ (tự kiểm tra kiến thức đã học), và lặp lại ngắt quãng (ôn tập lại sau những khoảng thời gian tăng dần)."
-      },
-      {
-        "question": "một số nền tảng học trực tuyến tốt",
-        "answer": "Một số nền tảng học trực tuyến uy tín và chất lượng bao gồm Coursera, edX, Khan Academy, và Udemy. Các nền tảng này cung cấp hàng ngàn khóa học từ các trường đại học hàng đầu thế giới."
-      },
-      {
-        "question": "làm sao để có động lực học tập",
-        "answer": "Để tạo động lực, hãy đặt ra mục tiêu học tập rõ ràng và khả thi, chia nhỏ mục tiêu lớn thành các bước nhỏ hơn, tự thưởng cho bản thân khi hoàn thành mục tiêu và tìm một người bạn học cùng để hỗ trợ lẫn nhau."
-      },
-      {
-        "question": "phương pháp ghi chép hiệu quả là gì",
-        "answer": "Phương pháp Cornell là một cách ghi chép rất hiệu quả. Bạn chia trang giấy thành 3 phần: phần lớn nhất để ghi chép trong buổi học, cột bên trái để ghi từ khóa hoặc câu hỏi, và phần cuối trang để tóm tắt lại nội dung chính sau buổi học."
-      },
-      {
-        "question": "quyền sở hữu trí tuệ là gì",
-        "answer": "Quyền sở hữu trí tuệ là quyền của cá nhân hoặc tổ chức đối với các sản phẩm sáng tạo của họ, bao gồm quyền tác giả (cho tác phẩm văn học, nghệ thuật), bằng sáng chế (cho phát minh), và nhãn hiệu (cho logo, tên thương hiệu). Lưu ý: Đây là thông tin tham khảo, bạn nên hỏi luật sư để được tư vấn chính xác."
-      },
-      {
-        "question": "cần làm gì khi ký hợp đồng",
-        "answer": "Khi ký hợp đồng, bạn cần đọc kỹ tất cả các điều khoản, đảm bảo bạn hiểu rõ quyền và nghĩa vụ của mình. Nếu có bất kỳ điều gì không chắc chắn, đừng ngần ngại hỏi lại hoặc tìm kiếm sự tư vấn từ luật sư. Đây là lời khuyên chung và không thay thế cho tư vấn pháp lý chuyên nghiệp."
-      },
-      {
-        "question": "di chúc là gì và tại sao nó quan trọng",
-        "answer": "Di chúc là một văn bản pháp lý thể hiện ý nguyện của một người về việc phân chia tài sản của họ sau khi qua đời. Nó rất quan trọng để đảm bảo tài sản được trao cho đúng người bạn mong muốn và tránh các tranh chấp pháp lý không đáng có cho gia đình. Để có hiệu lực, di chúc cần tuân thủ các quy định của pháp luật."
-      },
-      {
-        "question": "ngôn ngữ lập trình nào nên học đầu tiên",
-        "answer": "Python thường được khuyên là ngôn ngữ lập trình đầu tiên nên học vì cú pháp của nó đơn giản, dễ đọc và có tính ứng dụng cao trong nhiều lĩnh vực như phát triển web, phân tích dữ liệu và trí tuệ nhân tạo."
-      },
-      {
-        "question": "front-end và back-end khác nhau thế nào",
-        "answer": "Front-end là phần giao diện người dùng mà bạn nhìn thấy và tương tác trên một trang web (nút bấm, bố cục). Back-end là phần logic chạy trên máy chủ, xử lý dữ liệu và các yêu cầu từ người dùng mà bạn không nhìn thấy."
-      },
-      {
-        "question": "API là gì",
-        "answer": "Bạn có thể hình dung API (Giao diện lập trình ứng dụng) như một người phục vụ trong nhà hàng. Bạn (front-end) gọi món từ thực đơn, người phục vụ (API) sẽ chuyển yêu cầu của bạn đến nhà bếp (back-end) và mang món ăn (dữ liệu) trở lại cho bạn."
-      },
-      {
-        "question": "git và github khác nhau như thế nào",
-        "answer": "Git là một hệ thống quản lý phiên bản phân tán, giúp bạn theo dõi các thay đổi trong mã nguồn trên máy tính của mình. GitHub là một dịch vụ lưu trữ dựa trên web dành cho các kho chứa Git, giúp bạn cộng tác với người khác và lưu trữ dự án của mình trực tuyến."
-      },
-      {
-        "question": "thư viện và framework khác nhau ra sao",
-        "answer": "Khi bạn sử dụng một thư viện (library), bạn là người kiểm soát luồng của ứng dụng và gọi các hàm từ thư viện khi cần. Khi bạn sử dụng một framework, framework sẽ kiểm soát luồng và gọi mã của bạn. Nói cách khác, bạn gọi thư viện, còn framework gọi bạn."
-      },
-      {
-        "question": "làm thế nào để tiến hành nghiên cứu khoa học",
-        "answer": "Quy trình nghiên cứu khoa học cơ bản bao gồm các bước: Quan sát, đặt câu hỏi, hình thành giả thuyết, tiến hành thí nghiệm để kiểm chứng, phân tích dữ liệu, và cuối cùng là rút ra kết luận."
-      },
-      {
-        "question": "tìm nguồn tài liệu đáng tin cậy ở đâu",
-        "answer": "Để nghiên cứu, bạn nên tìm các nguồn tài liệu đáng tin cậy như Google Scholar, các tạp chí khoa học đã được bình duyệt, thư viện của các trường đại học, và các trang web của chính phủ hoặc tổ chức giáo dục (.gov, .edu)."
-      },
-      {
-        "question": "đạo văn là gì và làm sao để tránh",
-        "answer": "Đạo văn là hành vi sử dụng ý tưởng, câu chữ của người khác mà không ghi nhận nguồn gốc, coi đó như là của mình. Để tránh đạo văn, bạn phải luôn trích dẫn nguồn khi sử dụng thông tin không phải của mình, kể cả khi bạn diễn giải lại bằng lời văn của mình."
-      },
-      {
-        "question": "làm thế nào để quản lý tài chính cá nhân tốt hơn",
-        "answer": "Để quản lý tài chính cá nhân, bạn nên bắt đầu bằng việc lập ngân sách (ghi lại thu nhập và chi tiêu), tạo một quỹ khẩn cấp (tương đương 3-6 tháng chi phí sinh hoạt), và cố gắng trả hết các khoản nợ có lãi suất cao."
-      },
-      {
-        "question": "lạm phát là gì",
-        "answer": "Lạm phát là sự tăng giá chung của hàng hóa và dịch vụ theo thời gian, dẫn đến việc sức mua của một đơn vị tiền tệ bị giảm đi. Ví dụ, 100.000 đồng hôm nay sẽ mua được ít hàng hóa hơn so với 100.000 đồng của năm ngoái."
-      },
-      {
-        "question": "đầu tư và tiết kiệm khác nhau như thế nào",
-        "answer": "Tiết kiệm là hành động cất giữ tiền một cách an toàn để sử dụng trong tương lai gần, thường có rủi ro thấp và lợi nhuận thấp. Đầu tư là việc sử dụng tiền để mua tài sản (cổ phiếu, bất động sản) với kỳ vọng tạo ra lợi nhuận cao hơn trong dài hạn, nhưng cũng đi kèm với rủi ro cao hơn."
-      },
-      {
-        "question": "trí tuệ nhân tạo (AI) là gì",
-        "answer": "Trí tuệ nhân tạo (AI) là một lĩnh vực của khoa học máy tính nhằm tạo ra các cỗ máy thông minh có khả năng thực hiện các nhiệm vụ thường đòi hỏi trí thông minh của con người, chẳng hạn như học hỏi, suy luận và nhận dạng."
-      },
-      {
-        "question": "blockchain là gì",
-        "answer": "Blockchain, hay chuỗi khối, là một công nghệ sổ cái kỹ thuật số phân tán, không thể thay đổi. Nó ghi lại các giao dịch một cách an toàn và minh bạch. Công nghệ này là nền tảng cho các loại tiền điện tử như Bitcoin."
-      },
-      {
-        "question": "internet vạn vật (IoT) là gì",
-        "answer": "Internet vạn vật (IoT) là mạng lưới các thiết bị vật lý được tích hợp cảm biến, phần mềm và các công nghệ khác để kết nối và trao đổi dữ liệu với nhau qua Internet. Ví dụ như nhà thông minh, đồng hồ thông minh."
-      },
-      {
-        "question": "vạn lý trường thành được xây dựng để làm gì",
-        "answer": "Vạn Lý Trường Thành ở Trung Quốc được xây dựng qua nhiều triều đại với mục đích chính là bảo vệ đế quốc Trung Hoa khỏi các cuộc tấn công của các bộ lạc du mục từ phương Bắc."
-      },
-      {
-        "question": "kim tự tháp được xây dựng như thế nào",
-        "answer": "Các Kim Tự Tháp ở Ai Cập cổ đại được xây dựng làm lăng mộ cho các Pharaoh. Người Ai Cập đã sử dụng các kỹ thuật xây dựng và vận chuyển đá đáng kinh ngạc để tạo nên những công trình vĩ đại này mà không cần đến máy móc hiện đại."
-      },
-      {
-        "question": "nhạc jazz là gì",
-        "answer": "Nhạc Jazz là một thể loại âm nhạc bắt nguồn từ cộng đồng người Mỹ gốc Phi ở New Orleans, Hoa Kỳ vào cuối thế kỷ 19. Nó đặc trưng bởi sự ứng tác (improvisation), nhịp điệu đảo phách (syncopation) và sự pha trộn giữa các nền văn hóa âm nhạc châu Phi và châu Âu."
-      },
-      {
-        "question": "trường phái hội họa ấn tượng là gì",
-        "answer": "Hội họa Ấn tượng là một phong trào nghệ thuật thế kỷ 19, bắt nguồn từ Paris. Các họa sĩ Ấn tượng tập trung vào việc nắm bắt 'ấn tượng' tức thời của một khoảnh khắc, đặc biệt là sự thay đổi của ánh sáng và màu sắc, thay vì vẽ các chi tiết một cách chính xác."
-      },
-      {
-        "question": "lỗ đen là gì",
-        "answer": "Lỗ đen là một vùng trong không gian nơi lực hấp dẫn mạnh đến mức không gì, kể cả ánh sáng, có thể thoát ra. Chúng được hình thành khi các ngôi sao rất lớn sụp đổ vào cuối vòng đời của chúng."
-      },
-      {
-        "question": "thuyết tương đối của Einstein nói về điều gì",
-        "answer": "Thuyết tương đối của Einstein bao gồm hai lý thuyết chính: thuyết tương đối hẹp và thuyết tương đối rộng. Về cơ bản, chúng mô tả rằng không gian và thời gian là tương đối và có thể bị uốn cong bởi khối lượng và năng lượng. Một trong những hệ quả nổi tiếng nhất là phương trình E=mc²."
-      }
-    ]
-  }
+  "qa_pairs": [
+    {
+      "question": "làm thế nào để giảm căng thẳng",
+      "answer": "Để giảm căng thẳng, bạn có thể thử các phương pháp như: tập thể dục đều đặn, thiền hoặc yoga, ngủ đủ giấc, và dành thời gian cho sở thích cá nhân. Nếu căng thẳng kéo dài, bạn nên tham khảo ý kiến của bác sĩ hoặc chuyên gia tâm lý."
+    },
+    {
+      "question": "chế độ ăn uống cân bằng là gì",
+      "answer": "Một chế độ ăn uống cân bằng bao gồm đủ các nhóm chất: protein (thịt, cá, trứng, đậu), carbohydrate (cơm, bánh mì, ngũ cốc), chất béo lành mạnh (dầu ô liu, quả bơ), vitamin và khoáng chất (từ rau củ, trái cây)."
+    },
+    {
+      "question": "tầm quan trọng của giấc ngủ là gì",
+      "answer": "Giấc ngủ rất quan trọng để phục hồi thể chất và tinh thần. Ngủ đủ giấc (7-9 tiếng mỗi đêm) giúp cải thiện trí nhớ, tăng cường hệ miễn dịch và giảm nguy cơ mắc các bệnh mãn tính. Thiếu ngủ có thể dẫn đến mệt mỏi, khó tập trung và các vấn đề sức khỏe khác."
+    },
+    {
+      "question": "uống đủ nước có lợi ích gì",
+      "answer": "Uống đủ nước giúp duy trì năng lượng, điều hòa nhiệt độ cơ thể, hỗ trợ tiêu hóa và làm đẹp da. Lượng nước cần thiết mỗi ngày tùy thuộc vào cơ địa và mức độ hoạt động, nhưng trung bình là khoảng 2 lít."
+    },
+    {
+      "question": "chánh niệm (mindfulness) là gì",
+      "answer": "Chánh niệm là thực hành tập trung sự chú ý của bạn vào khoảnh khắc hiện tại một cách không phán xét. Bạn có thể thực hành chánh niệm qua việc thiền định, tập trung vào hơi thở, hoặc đơn giản là chú ý đến các cảm giác của cơ thể. Nó giúp giảm lo âu và cải thiện sự tập trung."
+    },
+    {
+      "question": "làm sao để cải thiện giao tiếp trong tình yêu",
+      "answer": "Để cải thiện giao tiếp, hai bạn nên thực hành lắng nghe chủ động, trung thực chia sẻ cảm xúc một cách bình tĩnh, và dành thời gian chất lượng bên nhau để thấu hiểu đối phương hơn."
+    },
+    {
+      "question": "làm thế nào để giải quyết mâu thuẫn một cách lành mạnh",
+      "answer": "Để giải quyết mâu thuẫn, hãy chọn thời điểm thích hợp để nói chuyện, tập trung vào vấn đề thay vì chỉ trích cá nhân, lắng nghe quan điểm của đối phương và cùng nhau tìm kiếm giải pháp 'cùng thắng' thay vì cố gắng 'thắng' cuộc tranh cãi."
+    },
+    {
+      "question": "làm sao để xây dựng lại niềm tin đã mất",
+      "answer": "Xây dựng lại niềm tin là một quá trình lâu dài, đòi hỏi sự kiên nhẫn và chân thành. Người mắc lỗi cần thể hiện sự hối lỗi bằng hành động cụ thể, minh bạch và nhất quán. Người bị tổn thương cần cho đối phương cơ hội và thời gian để chứng minh sự thay đổi."
+    },
+    {
+      "question": "làm thế nào để học tập hiệu quả",
+      "answer": "Các phương pháp học tập hiệu quả bao gồm kỹ thuật Pomodoro (học 25 phút, nghỉ 5 phút), chủ động gợi nhớ (tự kiểm tra kiến thức đã học), và lặp lại ngắt quãng (ôn tập lại sau những khoảng thời gian tăng dần)."
+    },
+    {
+      "question": "một số nền tảng học trực tuyến tốt",
+      "answer": "Một số nền tảng học trực tuyến uy tín và chất lượng bao gồm Coursera, edX, Khan Academy, và Udemy. Các nền tảng này cung cấp hàng ngàn khóa học từ các trường đại học hàng đầu thế giới."
+    },
+    {
+      "question": "làm sao để có động lực học tập",
+      "answer": "Để tạo động lực, hãy đặt ra mục tiêu học tập rõ ràng và khả thi, chia nhỏ mục tiêu lớn thành các bước nhỏ hơn, tự thưởng cho bản thân khi hoàn thành mục tiêu và tìm một người bạn học cùng để hỗ trợ lẫn nhau."
+    },
+    {
+      "question": "phương pháp ghi chép hiệu quả là gì",
+      "answer": "Phương pháp Cornell là một cách ghi chép rất hiệu quả. Bạn chia trang giấy thành 3 phần: phần lớn nhất để ghi chép trong buổi học, cột bên trái để ghi từ khóa hoặc câu hỏi, và phần cuối trang để tóm tắt lại nội dung chính sau buổi học."
+    },
+    {
+      "question": "quyền sở hữu trí tuệ là gì",
+      "answer": "Quyền sở hữu trí tuệ là quyền của cá nhân hoặc tổ chức đối với các sản phẩm sáng tạo của họ, bao gồm quyền tác giả (cho tác phẩm văn học, nghệ thuật), bằng sáng chế (cho phát minh), và nhãn hiệu (cho logo, tên thương hiệu). Lưu ý: Đây là thông tin tham khảo, bạn nên hỏi luật sư để được tư vấn chính xác."
+    },
+    {
+      "question": "cần làm gì khi ký hợp đồng",
+      "answer": "Khi ký hợp đồng, bạn cần đọc kỹ tất cả các điều khoản, đảm bảo bạn hiểu rõ quyền và nghĩa vụ của mình. Nếu có bất kỳ điều gì không chắc chắn, đừng ngần ngại hỏi lại hoặc tìm kiếm sự tư vấn từ luật sư. Đây là lời khuyên chung và không thay thế cho tư vấn pháp lý chuyên nghiệp."
+    },
+    {
+      "question": "di chúc là gì và tại sao nó quan trọng",
+      "answer": "Di chúc là một văn bản pháp lý thể hiện ý nguyện của một người về việc phân chia tài sản của họ sau khi qua đời. Nó rất quan trọng để đảm bảo tài sản được trao cho đúng người bạn mong muốn và tránh các tranh chấp pháp lý không đáng có cho gia đình. Để có hiệu lực, di chúc cần tuân thủ các quy định của pháp luật."
+    },
+    {
+      "question": "ngôn ngữ lập trình nào nên học đầu tiên",
+      "answer": "Python thường được khuyên là ngôn ngữ lập trình đầu tiên nên học vì cú pháp của nó đơn giản, dễ đọc và có tính ứng dụng cao trong nhiều lĩnh vực như phát triển web, phân tích dữ liệu và trí tuệ nhân tạo."
+    },
+    {
+      "question": "front-end và back-end khác nhau thế nào",
+      "answer": "Front-end là phần giao diện người dùng mà bạn nhìn thấy và tương tác trên một trang web (nút bấm, bố cục). Back-end là phần logic chạy trên máy chủ, xử lý dữ liệu và các yêu cầu từ người dùng mà bạn không nhìn thấy."
+    },
+    {
+      "question": "API là gì",
+      "answer": "Bạn có thể hình dung API (Giao diện lập trình ứng dụng) như một người phục vụ trong nhà hàng. Bạn (front-end) gọi món từ thực đơn, người phục vụ (API) sẽ chuyển yêu cầu của bạn đến nhà bếp (back-end) và mang món ăn (dữ liệu) trở lại cho bạn."
+    },
+    {
+      "question": "git và github khác nhau như thế nào",
+      "answer": "Git là một hệ thống quản lý phiên bản phân tán, giúp bạn theo dõi các thay đổi trong mã nguồn trên máy tính của mình. GitHub là một dịch vụ lưu trữ dựa trên web dành cho các kho chứa Git, giúp bạn cộng tác với người khác và lưu trữ dự án của mình trực tuyến."
+    },
+    {
+      "question": "thư viện và framework khác nhau ra sao",
+      "answer": "Khi bạn sử dụng một thư viện (library), bạn là người kiểm soát luồng của ứng dụng và gọi các hàm từ thư viện khi cần. Khi bạn sử dụng một framework, framework sẽ kiểm soát luồng và gọi mã của bạn. Nói cách khác, bạn gọi thư viện, còn framework gọi bạn."
+    },
+    {
+      "question": "làm thế nào để tiến hành nghiên cứu khoa học",
+      "answer": "Quy trình nghiên cứu khoa học cơ bản bao gồm các bước: Quan sát, đặt câu hỏi, hình thành giả thuyết, tiến hành thí nghiệm để kiểm chứng, phân tích dữ liệu, và cuối cùng là rút ra kết luận."
+    },
+    {
+      "question": "tìm nguồn tài liệu đáng tin cậy ở đâu",
+      "answer": "Để nghiên cứu, bạn nên tìm các nguồn tài liệu đáng tin cậy như Google Scholar, các tạp chí khoa học đã được bình duyệt, thư viện của các trường đại học, và các trang web của chính phủ hoặc tổ chức giáo dục (.gov, .edu)."
+    },
+    {
+      "question": "đạo văn là gì và làm sao để tránh",
+      "answer": "Đạo văn là hành vi sử dụng ý tưởng, câu chữ của người khác mà không ghi nhận nguồn gốc, coi đó như là của mình. Để tránh đạo văn, bạn phải luôn trích dẫn nguồn khi sử dụng thông tin không phải của mình, kể cả khi bạn diễn giải lại bằng lời văn của mình."
+    },
+    {
+      "question": "làm thế nào để quản lý tài chính cá nhân tốt hơn",
+      "answer": "Để quản lý tài chính cá nhân, bạn nên bắt đầu bằng việc lập ngân sách (ghi lại thu nhập và chi tiêu), tạo một quỹ khẩn cấp (tương đương 3-6 tháng chi phí sinh hoạt), và cố gắng trả hết các khoản nợ có lãi suất cao."
+    },
+    {
+      "question": "lạm phát là gì",
+      "answer": "Lạm phát là sự tăng giá chung của hàng hóa và dịch vụ theo thời gian, dẫn đến việc sức mua của một đơn vị tiền tệ bị giảm đi. Ví dụ, 100.000 đồng hôm nay sẽ mua được ít hàng hóa hơn so với 100.000 đồng của năm ngoái."
+    },
+    {
+      "question": "đầu tư và tiết kiệm khác nhau như thế nào",
+      "answer": "Tiết kiệm là hành động cất giữ tiền một cách an toàn để sử dụng trong tương lai gần, thường có rủi ro thấp và lợi nhuận thấp. Đầu tư là việc sử dụng tiền để mua tài sản (cổ phiếu, bất động sản) với kỳ vọng tạo ra lợi nhuận cao hơn trong dài hạn, nhưng cũng đi kèm với rủi ro cao hơn."
+    },
+    {
+      "question": "trí tuệ nhân tạo (AI) là gì",
+      "answer": "Trí tuệ nhân tạo (AI) là một lĩnh vực của khoa học máy tính nhằm tạo ra các cỗ máy thông minh có khả năng thực hiện các nhiệm vụ thường đòi hỏi trí thông minh của con người, chẳng hạn như học hỏi, suy luận và nhận dạng."
+    },
+    {
+      "question": "blockchain là gì",
+      "answer": "Blockchain, hay chuỗi khối, là một công nghệ sổ cái kỹ thuật số phân tán, không thể thay đổi. Nó ghi lại các giao dịch một cách an toàn và minh bạch. Công nghệ này là nền tảng cho các loại tiền điện tử như Bitcoin."
+    },
+    {
+      "question": "internet vạn vật (IoT) là gì",
+      "answer": "Internet vạn vật (IoT) là mạng lưới các thiết bị vật lý được tích hợp cảm biến, phần mềm và các công nghệ khác để kết nối và trao đổi dữ liệu với nhau qua Internet. Ví dụ như nhà thông minh, đồng hồ thông minh."
+    },
+    {
+      "question": "vạn lý trường thành được xây dựng để làm gì",
+      "answer": "Vạn Lý Trường Thành ở Trung Quốc được xây dựng qua nhiều triều đại với mục đích chính là bảo vệ đế quốc Trung Hoa khỏi các cuộc tấn công của các bộ lạc du mục từ phương Bắc."
+    },
+    {
+      "question": "kim tự tháp được xây dựng như thế nào",
+      "answer": "Các Kim Tự Tháp ở Ai Cập cổ đại được xây dựng làm lăng mộ cho các Pharaoh. Người Ai Cập đã sử dụng các kỹ thuật xây dựng và vận chuyển đá đáng kinh ngạc để tạo nên những công trình vĩ đại này mà không cần đến máy móc hiện đại."
+    },
+    {
+      "question": "nhạc jazz là gì",
+      "answer": "Nhạc Jazz là một thể loại âm nhạc bắt nguồn từ cộng đồng người Mỹ gốc Phi ở New Orleans, Hoa Kỳ vào cuối thế kỷ 19. Nó đặc trưng bởi sự ứng tác (improvisation), nhịp điệu đảo phách (syncopation) và sự pha trộn giữa các nền văn hóa âm nhạc châu Phi và châu Âu."
+    },
+    {
+      "question": "trường phái hội họa ấn tượng là gì",
+      "answer": "Hội họa Ấn tượng là một phong trào nghệ thuật thế kỷ 19, bắt nguồn từ Paris. Các họa sĩ Ấn tượng tập trung vào việc nắm bắt 'ấn tượng' tức thời của một khoảnh khắc, đặc biệt là sự thay đổi của ánh sáng và màu sắc, thay vì vẽ các chi tiết một cách chính xác."
+    },
+    {
+      "question": "lỗ đen là gì",
+      "answer": "Lỗ đen là một vùng trong không gian nơi lực hấp dẫn mạnh đến mức không gì, kể cả ánh sáng, có thể thoát ra. Chúng được hình thành khi các ngôi sao rất lớn sụp đổ vào cuối vòng đời của chúng."
+    },
+    {
+      "question": "thuyết tương đối của Einstein nói về điều gì",
+      "answer": "Thuyết tương đối của Einstein bao gồm hai lý thuyết chính: thuyết tương đối hẹp và thuyết tương đối rộng. Về cơ bản, chúng mô tả rằng không gian và thời gian là tương đối và có thể bị uốn cong bởi khối lượng và năng lượng. Một trong những hệ quả nổi tiếng nhất là phương trình E=mc²."
+    },
+    {
+      "qa_pairs": [
+        {
+          "question": "Thủ đô của Iran là gì?",
+          "answer": "Iran — thủ đô: Tehran; dân số (ước tính): 92417700; diện tích (km²): 1648195."
+        },
+        {
+          "question": "Dân số của Iran là bao nhiêu?",
+          "answer": "Iran — thủ đô: Tehran; dân số (ước tính): 92417700; diện tích (km²): 1648195."
+        },
+        {
+          "question": "Thủ đô của Iraq là gì?",
+          "answer": "Iraq — thủ đô: Bagdad; dân số (ước tính): 38274618; diện tích (km²): 437072."
+        },
+        {
+          "question": "Dân số của Iraq là bao nhiêu?",
+          "answer": "Iraq — thủ đô: Bagdad; dân số (ước tính): 38274618; diện tích (km²): 437072."
+        },
+        {
+          "question": "Thủ đô của Costa Rica là gì?",
+          "answer": "Costa Rica — thủ đô: San José; dân số (ước tính): 5265575; diện tích (km²): 51179.92."
+        },
+        {
+          "question": "Dân số của Costa Rica là bao nhiêu?",
+          "answer": "Costa Rica — thủ đô: San José; dân số (ước tính): 5265575; diện tích (km²): 51179.92."
+        },
+        {
+          "question": "Thủ đô của Israel là gì?",
+          "answer": "Israel — thủ đô: Jerusalem; dân số (ước tính): 9840000; diện tích (km²): 20770."
+        },
+        {
+          "question": "Dân số của Israel là bao nhiêu?",
+          "answer": "Israel — thủ đô: Jerusalem; dân số (ước tính): 9840000; diện tích (km²): 20770."
+        },
+        {
+          "question": "Thủ đô của Yemen là gì?",
+          "answer": "Yemen — thủ đô: Sana'a; dân số (ước tính): 28250420; diện tích (km²): 555000."
+        },
+        {
+          "question": "Dân số của Yemen là bao nhiêu?",
+          "answer": "Yemen — thủ đô: Sana'a; dân số (ước tính): 28250420; diện tích (km²): 555000."
+        },
+        {
+          "question": "Thủ đô của Yemen là gì?",
+          "answer": "Yemen — thủ đô: Aden; dân số (ước tính): 28250420; diện tích (km²): 555000."
+        },
+        {
+          "question": "Dân số của Yemen là bao nhiêu?",
+          "answer": "Yemen — thủ đô: Aden; dân số (ước tính): 28250420; diện tích (km²): 555000."
+        },
+        {
+          "question": "Thủ đô của Jordan là gì?",
+          "answer": "Jordan — thủ đô: Amman; dân số (ước tính): 10428241; diện tích (km²): 89341."
+        },
+        {
+          "question": "Dân số của Jordan là bao nhiêu?",
+          "answer": "Jordan — thủ đô: Amman; dân số (ước tính): 10428241; diện tích (km²): 89341."
+        },
+        {
+          "question": "Thủ đô của Nicaragua là gì?",
+          "answer": "Nicaragua — thủ đô: Managua; dân số (ước tính): 5142098; diện tích (km²): 120340."
+        },
+        {
+          "question": "Dân số của Nicaragua là bao nhiêu?",
+          "answer": "Nicaragua — thủ đô: Managua; dân số (ước tính): 5142098; diện tích (km²): 120340."
+        },
+        {
+          "question": "Thủ đô của Kyrgyzstan là gì?",
+          "answer": "Kyrgyzstan — thủ đô: Bishkek; dân số (ước tính): 7281800; diện tích (km²): 199951."
+        },
+        {
+          "question": "Dân số của Kyrgyzstan là bao nhiêu?",
+          "answer": "Kyrgyzstan — thủ đô: Bishkek; dân số (ước tính): 7281800; diện tích (km²): 199951."
+        },
+        {
+          "question": "Thủ đô của Lào là gì?",
+          "answer": "Lào — thủ đô: Viêng Chăn; dân số (ước tính): 6858160; diện tích (km²): 236800."
+        },
+        {
+          "question": "Dân số của Lào là bao nhiêu?",
+          "answer": "Lào — thủ đô: Viêng Chăn; dân số (ước tính): 6858160; diện tích (km²): 236800."
+        },
+        {
+          "question": "Thủ đô của Liban là gì?",
+          "answer": "Liban — thủ đô: Beirut; dân số (ước tính): 6100075; diện tích (km²): 10452."
+        },
+        {
+          "question": "Dân số của Liban là bao nhiêu?",
+          "answer": "Liban — thủ đô: Beirut; dân số (ước tính): 6100075; diện tích (km²): 10452."
+        },
+        {
+          "question": "Thủ đô của Maldives là gì?",
+          "answer": "Maldives — thủ đô: Malé; dân số (ước tính): 436330; diện tích (km²): 298."
+        },
+        {
+          "question": "Dân số của Maldives là bao nhiêu?",
+          "answer": "Maldives — thủ đô: Malé; dân số (ước tính): 436330; diện tích (km²): 298."
+        },
+        {
+          "question": "Thủ đô của Malaysia là gì?",
+          "answer": "Malaysia — thủ đô: Kuala Lumpur; dân số (ước tính): 32447385; diện tích (km²): 330803."
+        },
+        {
+          "question": "Dân số của Malaysia là bao nhiêu?",
+          "answer": "Malaysia — thủ đô: Kuala Lumpur; dân số (ước tính): 32447385; diện tích (km²): 330803."
+        },
+        {
+          "question": "Thủ đô của Myanma là gì?",
+          "answer": "Myanma — thủ đô: Naypyidaw; dân số (ước tính): 53370609; diện tích (km²): 676577.2."
+        },
+        {
+          "question": "Dân số của Myanma là bao nhiêu?",
+          "answer": "Myanma — thủ đô: Naypyidaw; dân số (ước tính): 53370609; diện tích (km²): 676577.2."
+        },
+        {
+          "question": "Thủ đô của Nepal là gì?",
+          "answer": "Nepal — thủ đô: Kathmandu; dân số (ước tính): 29164578; diện tích (km²): 147181.254346."
+        },
+        {
+          "question": "Dân số của Nepal là bao nhiêu?",
+          "answer": "Nepal — thủ đô: Kathmandu; dân số (ước tính): 29164578; diện tích (km²): 147181.254346."
+        },
+        {
+          "question": "Thủ đô của Oman là gì?",
+          "answer": "Oman — thủ đô: Muscat; dân số (ước tính): 4829480; diện tích (km²): 309500."
+        },
+        {
+          "question": "Dân số của Oman là bao nhiêu?",
+          "answer": "Oman — thủ đô: Muscat; dân số (ước tính): 4829480; diện tích (km²): 309500."
+        },
+        {
+          "question": "Thủ đô của Pakistan là gì?",
+          "answer": "Pakistan — thủ đô: Islamabad; dân số (ước tính): 223773700; diện tích (km²): 881913."
+        },
+        {
+          "question": "Dân số của Pakistan là bao nhiêu?",
+          "answer": "Pakistan — thủ đô: Islamabad; dân số (ước tính): 223773700; diện tích (km²): 881913."
+        },
+        {
+          "question": "Thủ đô của Qatar là gì?",
+          "answer": "Qatar — thủ đô: Doha; dân số (ước tính): 2639211; diện tích (km²): 11437."
+        },
+        {
+          "question": "Dân số của Qatar là bao nhiêu?",
+          "answer": "Qatar — thủ đô: Doha; dân số (ước tính): 2639211; diện tích (km²): 11437."
+        },
+        {
+          "question": "Thủ đô của Ả Rập Saudi là gì?",
+          "answer": "Ả Rập Saudi — thủ đô: Riyadh; dân số (ước tính): 33000000; diện tích (km²): 2250000."
+        },
+        {
+          "question": "Dân số của Ả Rập Saudi là bao nhiêu?",
+          "answer": "Ả Rập Saudi — thủ đô: Riyadh; dân số (ước tính): 33000000; diện tích (km²): 2250000."
+        },
+        {
+          "question": "Thủ đô của Sri Lanka là gì?",
+          "answer": "Sri Lanka — thủ đô: Colombo; dân số (ước tính): 21444000; diện tích (km²): 65610."
+        },
+        {
+          "question": "Dân số của Sri Lanka là bao nhiêu?",
+          "answer": "Sri Lanka — thủ đô: Colombo; dân số (ước tính): 21444000; diện tích (km²): 65610."
+        },
+        {
+          "question": "Thủ đô của Sri Lanka là gì?",
+          "answer": "Sri Lanka — thủ đô: Sri Jayawardenepura Kotte; dân số (ước tính): 21444000; diện tích (km²): 65610."
+        },
+        {
+          "question": "Dân số của Sri Lanka là bao nhiêu?",
+          "answer": "Sri Lanka — thủ đô: Sri Jayawardenepura Kotte; dân số (ước tính): 21444000; diện tích (km²): 65610."
+        },
+        {
+          "question": "Thủ đô của Syria là gì?",
+          "answer": "Syria — thủ đô: Damas; dân số (ước tính): 23865423; diện tích (km²): 185180."
+        },
+        {
+          "question": "Dân số của Syria là bao nhiêu?",
+          "answer": "Syria — thủ đô: Damas; dân số (ước tính): 23865423; diện tích (km²): 185180."
+        },
+        {
+          "question": "Thủ đô của Tajikistan là gì?",
+          "answer": "Tajikistan — thủ đô: Dushanbe; dân số (ước tính): 9504000; diện tích (km²): 143100."
+        },
+        {
+          "question": "Dân số của Tajikistan là bao nhiêu?",
+          "answer": "Tajikistan — thủ đô: Dushanbe; dân số (ước tính): 9504000; diện tích (km²): 143100."
+        },
+        {
+          "question": "Thủ đô của Đài Loan là gì?",
+          "answer": "Đài Loan — thủ đô: Đài Bắc; dân số (ước tính): 23409323; diện tích (km²): 36193."
+        },
+        {
+          "question": "Dân số của Đài Loan là bao nhiêu?",
+          "answer": "Đài Loan — thủ đô: Đài Bắc; dân số (ước tính): 23409323; diện tích (km²): 36193."
+        },
+        {
+          "question": "Thủ đô của Thái Lan là gì?",
+          "answer": "Thái Lan — thủ đô: Băng Cốc; dân số (ước tính): 66188503; diện tích (km²): 513119.5."
+        },
+        {
+          "question": "Dân số của Thái Lan là bao nhiêu?",
+          "answer": "Thái Lan — thủ đô: Băng Cốc; dân số (ước tính): 66188503; diện tích (km²): 513119.5."
+        },
+        {
+          "question": "Thủ đô của Turkmenistan là gì?",
+          "answer": "Turkmenistan — thủ đô: Ashgabat; dân số (ước tính): 6117933; diện tích (km²): 491210."
+        },
+        {
+          "question": "Dân số của Turkmenistan là bao nhiêu?",
+          "answer": "Turkmenistan — thủ đô: Ashgabat; dân số (ước tính): 6117933; diện tích (km²): 491210."
+        },
+        {
+          "question": "Thủ đô của các Tiểu vương quốc Ả Rập Thống nhất là gì?",
+          "answer": "các Tiểu vương quốc Ả Rập Thống nhất — thủ đô: Abu Dhabi; dân số (ước tính): 9890400; diện tích (km²): 83600."
+        },
+        {
+          "question": "Dân số của các Tiểu vương quốc Ả Rập Thống nhất là bao nhiêu?",
+          "answer": "các Tiểu vương quốc Ả Rập Thống nhất — thủ đô: Abu Dhabi; dân số (ước tính): 9890400; diện tích (km²): 83600."
+        },
+        {
+          "question": "Thủ đô của Việt Nam là gì?",
+          "answer": "Việt Nam — thủ đô: Hà Nội; dân số (ước tính): 96208984; diện tích (km²): 331690."
+        },
+        {
+          "question": "Dân số của Việt Nam là bao nhiêu?",
+          "answer": "Việt Nam — thủ đô: Hà Nội; dân số (ước tính): 96208984; diện tích (km²): 331690."
+        },
+        {
+          "question": "Thủ đô của Hàn Quốc là gì?",
+          "answer": "Hàn Quốc — thủ đô: Seoul; dân số (ước tính): 51466201; diện tích (km²): 100295."
+        },
+        {
+          "question": "Dân số của Hàn Quốc là bao nhiêu?",
+          "answer": "Hàn Quốc — thủ đô: Seoul; dân số (ước tính): 51466201; diện tích (km²): 100295."
+        },
+        {
+          "question": "Thủ đô của Afghanistan là gì?",
+          "answer": "Afghanistan — thủ đô: Kabul; dân số (ước tính): 41454761; diện tích (km²): 652230."
+        },
+        {
+          "question": "Dân số của Afghanistan là bao nhiêu?",
+          "answer": "Afghanistan — thủ đô: Kabul; dân số (ước tính): 41454761; diện tích (km²): 652230."
+        },
+        {
+          "question": "Thủ đô của Bangladesh là gì?",
+          "answer": "Bangladesh — thủ đô: Dhaka; dân số (ước tính): 171466990; diện tích (km²): 147570."
+        },
+        {
+          "question": "Dân số của Bangladesh là bao nhiêu?",
+          "answer": "Bangladesh — thủ đô: Dhaka; dân số (ước tính): 171466990; diện tích (km²): 147570."
+        },
+        {
+          "question": "Thủ đô của Mali là gì?",
+          "answer": "Mali — thủ đô: Bamako; dân số (ước tính): 20250833; diện tích (km²): 1240192."
+        },
+        {
+          "question": "Dân số của Mali là bao nhiêu?",
+          "answer": "Mali — thủ đô: Bamako; dân số (ước tính): 20250833; diện tích (km²): 1240192."
+        },
+        {
+          "question": "Thủ đô của Angola là gì?",
+          "answer": "Angola — thủ đô: Luanda; dân số (ước tính): 36749906; diện tích (km²): 1246700."
+        },
+        {
+          "question": "Dân số của Angola là bao nhiêu?",
+          "answer": "Angola — thủ đô: Luanda; dân số (ước tính): 36749906; diện tích (km²): 1246700."
+        },
+        {
+          "question": "Thủ đô của Bhutan là gì?",
+          "answer": "Bhutan — thủ đô: Thimphu; dân số (ước tính): 787424; diện tích (km²): 38394."
+        },
+        {
+          "question": "Dân số của Bhutan là bao nhiêu?",
+          "answer": "Bhutan — thủ đô: Thimphu; dân số (ước tính): 787424; diện tích (km²): 38394."
+        },
+        {
+          "question": "Thủ đô của Brunei là gì?",
+          "answer": "Brunei — thủ đô: Bandar Seri Begawan; dân số (ước tính): 458949; diện tích (km²): 5765.313533."
+        },
+        {
+          "question": "Dân số của Brunei là bao nhiêu?",
+          "answer": "Brunei — thủ đô: Bandar Seri Begawan; dân số (ước tính): 458949; diện tích (km²): 5765.313533."
+        },
+        {
+          "question": "Thủ đô của Tanzania là gì?",
+          "answer": "Tanzania — thủ đô: Dodoma; dân số (ước tính): 57310019; diện tích (km²): 947303."
+        },
+        {
+          "question": "Dân số của Tanzania là bao nhiêu?",
+          "answer": "Tanzania — thủ đô: Dodoma; dân số (ước tính): 57310019; diện tích (km²): 947303."
+        },
+        {
+          "question": "Thủ đô của Philippines là gì?",
+          "answer": "Philippines — thủ đô: Manila; dân số (ước tính): 112729484; diện tích (km²): 343448."
+        },
+        {
+          "question": "Dân số của Philippines là bao nhiêu?",
+          "answer": "Philippines — thủ đô: Manila; dân số (ước tính): 112729484; diện tích (km²): 343448."
+        },
+        {
+          "question": "Thủ đô của Cộng hòa Trung Phi là gì?",
+          "answer": "Cộng hòa Trung Phi — thủ đô: Bangui; dân số (ước tính): 5152421; diện tích (km²): 622984."
+        },
+        {
+          "question": "Dân số của Cộng hòa Trung Phi là bao nhiêu?",
+          "answer": "Cộng hòa Trung Phi — thủ đô: Bangui; dân số (ước tính): 5152421; diện tích (km²): 622984."
+        },
+        {
+          "question": "Thủ đô của Togo là gì?",
+          "answer": "Togo — thủ đô: Lomé; dân số (ước tính): 7797694; diện tích (km²): 56785."
+        },
+        {
+          "question": "Dân số của Togo là bao nhiêu?",
+          "answer": "Togo — thủ đô: Lomé; dân số (ước tính): 7797694; diện tích (km²): 56785."
+        },
+        {
+          "question": "Thủ đô của Tunisia là gì?",
+          "answer": "Tunisia — thủ đô: Tunis; dân số (ước tính): 11565204; diện tích (km²): 163610."
+        },
+        {
+          "question": "Dân số của Tunisia là bao nhiêu?",
+          "answer": "Tunisia — thủ đô: Tunis; dân số (ước tính): 11565204; diện tích (km²): 163610."
+        },
+        {
+          "question": "Thủ đô của Zambia là gì?",
+          "answer": "Zambia — thủ đô: Lusaka; dân số (ước tính): 19610769; diện tích (km²): 752618."
+        },
+        {
+          "question": "Dân số của Zambia là bao nhiêu?",
+          "answer": "Zambia — thủ đô: Lusaka; dân số (ước tính): 19610769; diện tích (km²): 752618."
+        },
+        {
+          "question": "Thủ đô của Zimbabwe là gì?",
+          "answer": "Zimbabwe — thủ đô: Harare; dân số (ước tính): 15178979; diện tích (km²): 390757."
+        },
+        {
+          "question": "Dân số của Zimbabwe là bao nhiêu?",
+          "answer": "Zimbabwe — thủ đô: Harare; dân số (ước tính): 15178979; diện tích (km²): 390757."
+        },
+        {
+          "question": "Thủ đô của Nam Sudan là gì?",
+          "answer": "Nam Sudan — thủ đô: Juba, Nam Sudan; dân số (ước tính): 12575714; diện tích (km²): 644329."
+        },
+        {
+          "question": "Dân số của Nam Sudan là bao nhiêu?",
+          "answer": "Nam Sudan — thủ đô: Juba, Nam Sudan; dân số (ước tính): 12575714; diện tích (km²): 644329."
+        },
+        {
+          "question": "Thủ đô của Bénin là gì?",
+          "answer": "Bénin — thủ đô: Porto-Novo; dân số (ước tính): 14111034; diện tích (km²): 114763."
+        },
+        {
+          "question": "Dân số của Bénin là bao nhiêu?",
+          "answer": "Bénin — thủ đô: Porto-Novo; dân số (ước tính): 14111034; diện tích (km²): 114763."
+        },
+        {
+          "question": "Thủ đô của Botswana là gì?",
+          "answer": "Botswana — thủ đô: Gaborone; dân số (ước tính): 2480244; diện tích (km²): 581737."
+        },
+        {
+          "question": "Dân số của Botswana là bao nhiêu?",
+          "answer": "Botswana — thủ đô: Gaborone; dân số (ước tính): 2480244; diện tích (km²): 581737."
+        },
+        {
+          "question": "Thủ đô của Burkina Faso là gì?",
+          "answer": "Burkina Faso — thủ đô: Ouagadougou; dân số (ước tính): 23025776; diện tích (km²): 274200."
+        },
+        {
+          "question": "Dân số của Burkina Faso là bao nhiêu?",
+          "answer": "Burkina Faso — thủ đô: Ouagadougou; dân số (ước tính): 23025776; diện tích (km²): 274200."
+        },
+        {
+          "question": "Thủ đô của Burundi là gì?",
+          "answer": "Burundi — thủ đô: Gitega; dân số (ước tính): 13689450; diện tích (km²): 27834."
+        },
+        {
+          "question": "Dân số của Burundi là bao nhiêu?",
+          "answer": "Burundi — thủ đô: Gitega; dân số (ước tính): 13689450; diện tích (km²): 27834."
+        },
+        {
+          "question": "Thủ đô của Comoros là gì?",
+          "answer": "Comoros — thủ đô: Moroni, Comoros; dân số (ước tính): 902348; diện tích (km²): 2034."
+        },
+        {
+          "question": "Dân số của Comoros là bao nhiêu?",
+          "answer": "Comoros — thủ đô: Moroni, Comoros; dân số (ước tính): 902348; diện tích (km²): 2034."
+        },
+        {
+          "question": "Thủ đô của Cộng hòa Congo là gì?",
+          "answer": "Cộng hòa Congo — thủ đô: Brazzaville; dân số (ước tính): 6142180; diện tích (km²): 342000."
+        },
+        {
+          "question": "Dân số của Cộng hòa Congo là bao nhiêu?",
+          "answer": "Cộng hòa Congo — thủ đô: Brazzaville; dân số (ước tính): 6142180; diện tích (km²): 342000."
+        },
+        {
+          "question": "Thủ đô của Cộng hòa Dân chủ Congo là gì?",
+          "answer": "Cộng hòa Dân chủ Congo — thủ đô: Kinshasa; dân số (ước tính): 105789731; diện tích (km²): 2344858."
+        },
+        {
+          "question": "Dân số của Cộng hòa Dân chủ Congo là bao nhiêu?",
+          "answer": "Cộng hòa Dân chủ Congo — thủ đô: Kinshasa; dân số (ước tính): 105789731; diện tích (km²): 2344858."
+        },
+        {
+          "question": "Thủ đô của Djibouti là gì?",
+          "answer": "Djibouti — thủ đô: Djibouti; dân số (ước tính): 1152944; diện tích (km²): 23200."
+        },
+        {
+          "question": "Dân số của Djibouti là bao nhiêu?",
+          "answer": "Djibouti — thủ đô: Djibouti; dân số (ước tính): 1152944; diện tích (km²): 23200."
+        },
+        {
+          "question": "Thủ đô của Eritrea là gì?",
+          "answer": "Eritrea — thủ đô: Asmara; dân số (ước tính): 3497000; diện tích (km²): 117600."
+        },
+        {
+          "question": "Dân số của Eritrea là bao nhiêu?",
+          "answer": "Eritrea — thủ đô: Asmara; dân số (ước tính): 3497000; diện tích (km²): 117600."
+        },
+        {
+          "question": "Thủ đô của Gabon là gì?",
+          "answer": "Gabon — thủ đô: Libreville; dân số (ước tính): 2025137; diện tích (km²): 267667."
+        },
+        {
+          "question": "Dân số của Gabon là bao nhiêu?",
+          "answer": "Gabon — thủ đô: Libreville; dân số (ước tính): 2025137; diện tích (km²): 267667."
+        },
+        {
+          "question": "Thủ đô của Gambia là gì?",
+          "answer": "Gambia — thủ đô: Banjul; dân số (ước tính): 2639916; diện tích (km²): 11300."
+        },
+        {
+          "question": "Dân số của Gambia là bao nhiêu?",
+          "answer": "Gambia — thủ đô: Banjul; dân số (ước tính): 2639916; diện tích (km²): 11300."
+        },
+        {
+          "question": "Thủ đô của Guinée là gì?",
+          "answer": "Guinée — thủ đô: Conakry; dân số (ước tính): 12717176; diện tích (km²): 245857."
+        },
+        {
+          "question": "Dân số của Guinée là bao nhiêu?",
+          "answer": "Guinée — thủ đô: Conakry; dân số (ước tính): 12717176; diện tích (km²): 245857."
+        },
+        {
+          "question": "Thủ đô của Bờ Biển Ngà là gì?",
+          "answer": "Bờ Biển Ngà — thủ đô: Yamoussoukro; dân số (ước tính): 31165654; diện tích (km²): 322463."
+        },
+        {
+          "question": "Dân số của Bờ Biển Ngà là bao nhiêu?",
+          "answer": "Bờ Biển Ngà — thủ đô: Yamoussoukro; dân số (ước tính): 31165654; diện tích (km²): 322463."
+        },
+        {
+          "question": "Thủ đô của Cameroon là gì?",
+          "answer": "Cameroon — thủ đô: Yaoundé; dân số (ước tính): 28372687; diện tích (km²): 475442."
+        },
+        {
+          "question": "Dân số của Cameroon là bao nhiêu?",
+          "answer": "Cameroon — thủ đô: Yaoundé; dân số (ước tính): 28372687; diện tích (km²): 475442."
+        },
+        {
+          "question": "Thủ đô của Cabo Verde là gì?",
+          "answer": "Cabo Verde — thủ đô: Praia; dân số (ước tính): 555988; diện tích (km²): 4033."
+        },
+        {
+          "question": "Dân số của Cabo Verde là bao nhiêu?",
+          "answer": "Cabo Verde — thủ đô: Praia; dân số (ước tính): 555988; diện tích (km²): 4033."
+        },
+        {
+          "question": "Thủ đô của Lesotho là gì?",
+          "answer": "Lesotho — thủ đô: Maseru; dân số (ước tính): 2007201; diện tích (km²): 30355."
+        },
+        {
+          "question": "Dân số của Lesotho là bao nhiêu?",
+          "answer": "Lesotho — thủ đô: Maseru; dân số (ước tính): 2007201; diện tích (km²): 30355."
+        },
+        {
+          "question": "Thủ đô của Liberia là gì?",
+          "answer": "Liberia — thủ đô: Monrovia; dân số (ước tính): 5214030; diện tích (km²): 111369."
+        },
+        {
+          "question": "Dân số của Liberia là bao nhiêu?",
+          "answer": "Liberia — thủ đô: Monrovia; dân số (ước tính): 5214030; diện tích (km²): 111369."
+        },
+        {
+          "question": "Thủ đô của Libya là gì?",
+          "answer": "Libya — thủ đô: Tripoli; dân số (ước tính): 6678567; diện tích (km²): 1759541."
+        },
+        {
+          "question": "Dân số của Libya là bao nhiêu?",
+          "answer": "Libya — thủ đô: Tripoli; dân số (ước tính): 6678567; diện tích (km²): 1759541."
+        },
+        {
+          "question": "Thủ đô của Malawi là gì?",
+          "answer": "Malawi — thủ đô: Lilongwe; dân số (ước tính): 17563749; diện tích (km²): 118484."
+        },
+        {
+          "question": "Dân số của Malawi là bao nhiêu?",
+          "answer": "Malawi — thủ đô: Lilongwe; dân số (ước tính): 17563749; diện tích (km²): 118484."
+        },
+        {
+          "question": "Thủ đô của Mauritanie là gì?",
+          "answer": "Mauritanie — thủ đô: Nouakchott; dân số (ước tính): 4736139; diện tích (km²): 1030700."
+        },
+        {
+          "question": "Dân số của Mauritanie là bao nhiêu?",
+          "answer": "Mauritanie — thủ đô: Nouakchott; dân số (ước tính): 4736139; diện tích (km²): 1030700."
+        },
+        {
+          "question": "Thủ đô của Mauritius là gì?",
+          "answer": "Mauritius — thủ đô: Port Louis; dân số (ước tính): 1264613; diện tích (km²): 2040."
+        },
+        {
+          "question": "Dân số của Mauritius là bao nhiêu?",
+          "answer": "Mauritius — thủ đô: Port Louis; dân số (ước tính): 1264613; diện tích (km²): 2040."
+        },
+        {
+          "question": "Thủ đô của Maroc là gì?",
+          "answer": "Maroc — thủ đô: Rabat; dân số (ước tính): 36828330; diện tích (km²): 446550."
+        },
+        {
+          "question": "Dân số của Maroc là bao nhiêu?",
+          "answer": "Maroc — thủ đô: Rabat; dân số (ước tính): 36828330; diện tích (km²): 446550."
+        },
+        {
+          "question": "Thủ đô của Maroc là gì?",
+          "answer": "Maroc — thủ đô: Rabat; dân số (ước tính): 37076584; diện tích (km²): 446550."
+        },
+        {
+          "question": "Dân số của Maroc là bao nhiêu?",
+          "answer": "Maroc — thủ đô: Rabat; dân số (ước tính): 37076584; diện tích (km²): 446550."
+        },
+        {
+          "question": "Thủ đô của Namibia là gì?",
+          "answer": "Namibia — thủ đô: Windhoek; dân số (ước tính): 2533794; diện tích (km²): 825615."
+        },
+        {
+          "question": "Dân số của Namibia là bao nhiêu?",
+          "answer": "Namibia — thủ đô: Windhoek; dân số (ước tính): 2533794; diện tích (km²): 825615."
+        },
+        {
+          "question": "Thủ đô của Niger là gì?",
+          "answer": "Niger — thủ đô: Niamey; dân số (ước tính): 21477348; diện tích (km²): 1267000."
+        },
+        {
+          "question": "Dân số của Niger là bao nhiêu?",
+          "answer": "Niger — thủ đô: Niamey; dân số (ước tính): 21477348; diện tích (km²): 1267000."
+        },
+        {
+          "question": "Thủ đô của Nigeria là gì?",
+          "answer": "Nigeria — thủ đô: Abuja; dân số (ước tính): 211400708; diện tích (km²): 923768."
+        },
+        {
+          "question": "Dân số của Nigeria là bao nhiêu?",
+          "answer": "Nigeria — thủ đô: Abuja; dân số (ước tính): 211400708; diện tích (km²): 923768."
+        },
+        {
+          "question": "Thủ đô của Uganda là gì?",
+          "answer": "Uganda — thủ đô: Kampala; dân số (ước tính): 47123531; diện tích (km²): 241038."
+        },
+        {
+          "question": "Dân số của Uganda là bao nhiêu?",
+          "answer": "Uganda — thủ đô: Kampala; dân số (ước tính): 47123531; diện tích (km²): 241038."
+        },
+        {
+          "question": "Thủ đô của Rwanda là gì?",
+          "answer": "Rwanda — thủ đô: Kigali; dân số (ước tính): 14569341; diện tích (km²): 26338."
+        },
+        {
+          "question": "Dân số của Rwanda là bao nhiêu?",
+          "answer": "Rwanda — thủ đô: Kigali; dân số (ước tính): 14569341; diện tích (km²): 26338."
+        },
+        {
+          "question": "Thủ đô của São Tomé và Príncipe là gì?",
+          "answer": "São Tomé và Príncipe — thủ đô: São Tomé; dân số (ước tính): 204327; diện tích (km²): 1001."
+        },
+        {
+          "question": "Dân số của São Tomé và Príncipe là bao nhiêu?",
+          "answer": "São Tomé và Príncipe — thủ đô: São Tomé; dân số (ước tính): 204327; diện tích (km²): 1001."
+        },
+        {
+          "question": "Thủ đô của Sénégal là gì?",
+          "answer": "Sénégal — thủ đô: Dakar; dân số (ước tính): 16876720; diện tích (km²): 196722."
+        },
+        {
+          "question": "Dân số của Sénégal là bao nhiêu?",
+          "answer": "Sénégal — thủ đô: Dakar; dân số (ước tính): 16876720; diện tích (km²): 196722."
+        },
+        {
+          "question": "Thủ đô của Seychelles là gì?",
+          "answer": "Seychelles — thủ đô: Victoria; dân số (ước tính): 119773; diện tích (km²): 459."
+        },
+        {
+          "question": "Dân số của Seychelles là bao nhiêu?",
+          "answer": "Seychelles — thủ đô: Victoria; dân số (ước tính): 119773; diện tích (km²): 459."
+        },
+        {
+          "question": "Thủ đô của Sierra Leone là gì?",
+          "answer": "Sierra Leone — thủ đô: Freetown; dân số (ước tính): 7557212; diện tích (km²): 71740."
+        },
+        {
+          "question": "Dân số của Sierra Leone là bao nhiêu?",
+          "answer": "Sierra Leone — thủ đô: Freetown; dân số (ước tính): 7557212; diện tích (km²): 71740."
+        },
+        {
+          "question": "Thủ đô của Somalia là gì?",
+          "answer": "Somalia — thủ đô: Mogadishu; dân số (ước tính): 11031386; diện tích (km²): 637657."
+        },
+        {
+          "question": "Dân số của Somalia là bao nhiêu?",
+          "answer": "Somalia — thủ đô: Mogadishu; dân số (ước tính): 11031386; diện tích (km²): 637657."
+        },
+        {
+          "question": "Thủ đô của Sudan là gì?",
+          "answer": "Sudan — thủ đô: Khartoum; dân số (ước tính): 40533330; diện tích (km²): 1840687."
+        },
+        {
+          "question": "Dân số của Sudan là bao nhiêu?",
+          "answer": "Sudan — thủ đô: Khartoum; dân số (ước tính): 40533330; diện tích (km²): 1840687."
+        },
+        {
+          "question": "Thủ đô của Sudan là gì?",
+          "answer": "Sudan — thủ đô: Khartoum; dân số (ước tính): 40533330; diện tích (km²): 1886068."
+        },
+        {
+          "question": "Dân số của Sudan là bao nhiêu?",
+          "answer": "Sudan — thủ đô: Khartoum; dân số (ước tính): 40533330; diện tích (km²): 1886068."
+        },
+        {
+          "question": "Thủ đô của Kosovo là gì?",
+          "answer": "Kosovo — thủ đô: Priština; dân số (ước tính): 1586659; diện tích (km²): 10909.02992."
+        },
+        {
+          "question": "Dân số của Kosovo là bao nhiêu?",
+          "answer": "Kosovo — thủ đô: Priština; dân số (ước tính): 1586659; diện tích (km²): 10909.02992."
+        },
+        {
+          "question": "Thủ đô của Aruba là gì?",
+          "answer": "Aruba — thủ đô: Oranjestad; dân số (ước tính): 106739; diện tích (km²): 178.916378."
+        },
+        {
+          "question": "Dân số của Aruba là bao nhiêu?",
+          "answer": "Aruba — thủ đô: Oranjestad; dân số (ước tính): 106739; diện tích (km²): 178.916378."
+        },
+        {
+          "question": "Thủ đô của Sint Maarten là gì?",
+          "answer": "Sint Maarten — thủ đô: Philipsburg; dân số (ước tính): 43847; diện tích (km²): 34."
+        },
+        {
+          "question": "Dân số của Sint Maarten là bao nhiêu?",
+          "answer": "Sint Maarten — thủ đô: Philipsburg; dân số (ước tính): 43847; diện tích (km²): 34."
+        },
+        {
+          "question": "Thủ đô của Quần đảo Cook là gì?",
+          "answer": "Quần đảo Cook — thủ đô: Avarua; dân số (ước tính): 14222; diện tích (km²): 240."
+        },
+        {
+          "question": "Dân số của Quần đảo Cook là bao nhiêu?",
+          "answer": "Quần đảo Cook — thủ đô: Avarua; dân số (ước tính): 14222; diện tích (km²): 240."
+        },
+        {
+          "question": "Thủ đô của Vương quốc Hà Lan là gì?",
+          "answer": "Vương quốc Hà Lan — thủ đô: Amsterdam; dân số (ước tính): 17100715; diện tích (km²): 42201."
+        },
+        {
+          "question": "Dân số của Vương quốc Hà Lan là bao nhiêu?",
+          "answer": "Vương quốc Hà Lan — thủ đô: Amsterdam; dân số (ước tính): 17100715; diện tích (km²): 42201."
+        },
+        {
+          "question": "Thủ đô của Niue là gì?",
+          "answer": "Niue — thủ đô: Alofi; dân số (ước tính): 1821; diện tích (km²): 260."
+        },
+        {
+          "question": "Dân số của Niue là bao nhiêu?",
+          "answer": "Niue — thủ đô: Alofi; dân số (ước tính): 1821; diện tích (km²): 260."
+        },
+        {
+          "question": "Thủ đô của Bosnia là gì?",
+          "answer": "Bosnia — thủ đô: Không có dữ liệu; dân số (ước tính): Không có dữ liệu; diện tích (km²): Không có dữ liệu."
+        },
+        {
+          "question": "Dân số của Bosnia là bao nhiêu?",
+          "answer": "Bosnia — thủ đô: Không có dữ liệu; dân số (ước tính): Không có dữ liệu; diện tích (km²): Không có dữ liệu."
+        },
+        {
+          "question": "Thủ đô của Nhà nước Palestine là gì?",
+          "answer": "Nhà nước Palestine — thủ đô: Ramallah; dân số (ước tính): 5227193; diện tích (km²): 6020."
+        },
+        {
+          "question": "Dân số của Nhà nước Palestine là bao nhiêu?",
+          "answer": "Nhà nước Palestine — thủ đô: Ramallah; dân số (ước tính): 5227193; diện tích (km²): 6020."
+        },
+        {
+          "question": "Thủ đô của Nhà nước Palestine là gì?",
+          "answer": "Nhà nước Palestine — thủ đô: Đông Jerusalem; dân số (ước tính): 5227193; diện tích (km²): 6020."
+        },
+        {
+          "question": "Dân số của Nhà nước Palestine là bao nhiêu?",
+          "answer": "Nhà nước Palestine — thủ đô: Đông Jerusalem; dân số (ước tính): 5227193; diện tích (km²): 6020."
+        },
+        {
+          "question": "Thủ đô của Vương quốc Đan Mạch là gì?",
+          "answer": "Vương quốc Đan Mạch — thủ đô: Copenhagen; dân số (ước tính): 5930987; diện tích (km²): 2220930."
+        },
+        {
+          "question": "Dân số của Vương quốc Đan Mạch là bao nhiêu?",
+          "answer": "Vương quốc Đan Mạch — thủ đô: Copenhagen; dân số (ước tính): 5930987; diện tích (km²): 2220930."
+        },
+        {
+          "question": "Thủ đô của Vương quốc Merina là gì?",
+          "answer": "Vương quốc Merina — thủ đô: Antananarivo; dân số (ước tính): Không có dữ liệu; diện tích (km²): Không có dữ liệu."
+        },
+        {
+          "question": "Dân số của Vương quốc Merina là bao nhiêu?",
+          "answer": "Vương quốc Merina — thủ đô: Antananarivo; dân số (ước tính): Không có dữ liệu; diện tích (km²): Không có dữ liệu."
+        },
+        {
+          "question": "Thủ đô của Dominica là gì?",
+          "answer": "Dominica — thủ đô: Roseau; dân số (ước tính): 74656; diện tích (km²): 751.096551."
+        },
+        {
+          "question": "Dân số của Dominica là bao nhiêu?",
+          "answer": "Dominica — thủ đô: Roseau; dân số (ước tính): 74656; diện tích (km²): 751.096551."
+        },
+        {
+          "question": "Thủ đô của Cộng hòa Dominica là gì?",
+          "answer": "Cộng hòa Dominica — thủ đô: Santo Domingo; dân số (ước tính): 10760028; diện tích (km²): 48670.82."
+        },
+        {
+          "question": "Dân số của Cộng hòa Dominica là bao nhiêu?",
+          "answer": "Cộng hòa Dominica — thủ đô: Santo Domingo; dân số (ước tính): 10760028; diện tích (km²): 48670.82."
+        },
+        {
+          "question": "Thủ đô của El Salvador là gì?",
+          "answer": "El Salvador — thủ đô: San Salvador; dân số (ước tính): 6029976; diện tích (km²): 21041."
+        },
+        {
+          "question": "Dân số của El Salvador là bao nhiêu?",
+          "answer": "El Salvador — thủ đô: San Salvador; dân số (ước tính): 6029976; diện tích (km²): 21041."
+        },
+        {
+          "question": "Thủ đô của Honduras là gì?",
+          "answer": "Honduras — thủ đô: Tegucigalpa; dân số (ước tính): 8303771; diện tích (km²): 112492."
+        },
+        {
+          "question": "Dân số của Honduras là bao nhiêu?",
+          "answer": "Honduras — thủ đô: Tegucigalpa; dân số (ước tính): 8303771; diện tích (km²): 112492."
+        },
+        {
+          "question": "Thủ đô của Antigua và Barbuda là gì?",
+          "answer": "Antigua và Barbuda — thủ đô: St. John's, Antigua và Barbuda; dân số (ước tính): 101489; diện tích (km²): 440.29."
+        },
+        {
+          "question": "Dân số của Antigua và Barbuda là bao nhiêu?",
+          "answer": "Antigua và Barbuda — thủ đô: St. John's, Antigua và Barbuda; dân số (ước tính): 101489; diện tích (km²): 440.29."
+        },
+        {
+          "question": "Thủ đô của Canada là gì?",
+          "answer": "Canada — thủ đô: Ottawa; dân số (ước tính): 36991981; diện tích (km²): 9984670."
+        },
+        {
+          "question": "Dân số của Canada là bao nhiêu?",
+          "answer": "Canada — thủ đô: Ottawa; dân số (ước tính): 36991981; diện tích (km²): 9984670."
+        },
+        {
+          "question": "Thủ đô của Nhật Bản là gì?",
+          "answer": "Nhật Bản — thủ đô: Tokyo; dân số (ước tính): 123802000; diện tích (km²): 377972.28."
+        },
+        {
+          "question": "Dân số của Nhật Bản là bao nhiêu?",
+          "answer": "Nhật Bản — thủ đô: Tokyo; dân số (ước tính): 123802000; diện tích (km²): 377972.28."
+        },
+        {
+          "question": "Thủ đô của Na Uy là gì?",
+          "answer": "Na Uy — thủ đô: Oslo; dân số (ước tính): 5594340; diện tích (km²): 385207."
+        },
+        {
+          "question": "Dân số của Na Uy là bao nhiêu?",
+          "answer": "Na Uy — thủ đô: Oslo; dân số (ước tính): 5594340; diện tích (km²): 385207."
+        },
+        {
+          "question": "Thủ đô của Ireland là gì?",
+          "answer": "Ireland — thủ đô: Dublin; dân số (ước tính): 5149139; diện tích (km²): 69797."
+        },
+        {
+          "question": "Dân số của Ireland là bao nhiêu?",
+          "answer": "Ireland — thủ đô: Dublin; dân số (ước tính): 5149139; diện tích (km²): 69797."
+        },
+        {
+          "question": "Thủ đô của Hungary là gì?",
+          "answer": "Hungary — thủ đô: Budapest; dân số (ước tính): 9603634; diện tích (km²): 93011.4."
+        },
+        {
+          "question": "Dân số của Hungary là bao nhiêu?",
+          "answer": "Hungary — thủ đô: Budapest; dân số (ước tính): 9603634; diện tích (km²): 93011.4."
+        },
+        {
+          "question": "Thủ đô của Tây Ban Nha là gì?",
+          "answer": "Tây Ban Nha — thủ đô: Madrid; dân số (ước tính): 48592909; diện tích (km²): 505990."
+        },
+        {
+          "question": "Dân số của Tây Ban Nha là bao nhiêu?",
+          "answer": "Tây Ban Nha — thủ đô: Madrid; dân số (ước tính): 48592909; diện tích (km²): 505990."
+        }
+      ]
+    }
+  ]
+}
